@@ -21,7 +21,7 @@
                         .labelDotRadius(d => Math.sqrt(d.properties.pop_max) * 4e-4)
                         .labelColor(() => '#ffa600')
                         .labelResolution(2)
-                        .onLabelClick(() => console.log("Label clicked"))
+                        .onLabelClick(() => alert("Label clicked"))
                         .onLabelHover(() => console.log("Label hoverd"));
                 });
 
