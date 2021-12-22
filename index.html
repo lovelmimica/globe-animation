@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <script src="//unpkg.com/globe.gl"></script>
+    </head>
+    <body>
+        <div class='globe-container'></div>
+        
+        <script>
+            fetch("./data/data_source.geojson")
+                .then(res => res.json()).then(places => {
+                    let container = document.querySelector(".globe-container");
+                    const globe = Globe();
+                    globe(container)
+                        .globeImageUrl("//unpkg.com/three-globe/example/img/earth-blue-marble.jpg")
+                        .labelsData(places.features)
+                        .labelLat(d => d.properties.latitude)
+                        .labelLng(d => d.properties.longitude)
+                        .labelText(d => d.properties.name)
+                        .labelSize(d => Math.sqrt(d.properties.pop_max) * 4e-4)
+                        .labelDotRadius(d => Math.sqrt(d.properties.pop_max) * 4e-4)
+                        .labelColor(() => '#ffa600')
+                        .labelResolution(2);
+                });
+
+        </script>
+    </body>
+</html> 

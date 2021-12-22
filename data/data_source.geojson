@@ -1,0 +1,115 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "scalerank": 2,
+          "natscale": 200,
+          "labelrank": 6,
+          "featurecla": "Admin-0 capital",
+          "name": "Accra",
+          "namepar": null,
+          "namealt": null,
+          "diffascii": 0,
+          "nameascii": "Accra",
+          "adm0cap": 1,
+          "capalt": null,
+          "capin": null,
+          "worldcity": 0,
+          "megacity": 1,
+          "sov0name": "Ghana",
+          "sov_a3": "GHA",
+          "adm0name": "Ghana",
+          "adm0_a3": "GHA",
+          "adm1name": "Greater Accra",
+          "iso_a2": "GH",
+          "note": null,
+          "latitude": 5.55003460583,
+          "longitude": -0.21671574035,
+          "changed": 5,
+          "namediff": 0,
+          "diffnote": "Changed scale rank.",
+          "pop_max": 2121000,
+          "pop_min": 1963264,
+          "pop_other": 2334371,
+          "rank_max": 12,
+          "rank_min": 12,
+          "geonameid": 2306104,
+          "meganame": "Accra",
+          "ls_name": "Accra",
+          "ls_match": 1,
+          "checkme": 0,
+          "min_zoom": 4
+        },
+        "bbox": [
+          -0.218662,
+          5.55198,
+          -0.218662,
+          5.55198
+        ],
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.218662,
+            5.55198
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "scalerank": 3,
+          "natscale": 110,
+          "labelrank": 8,
+          "featurecla": "Admin-0 capital",
+          "name": "Port-au-Prince",
+          "namepar": null,
+          "namealt": null,
+          "diffascii": 0,
+          "nameascii": "Port-au-Prince",
+          "adm0cap": 1,
+          "capalt": null,
+          "capin": null,
+          "worldcity": 0,
+          "megacity": 1,
+          "sov0name": "Haiti",
+          "sov_a3": "HTI",
+          "adm0name": "Haiti",
+          "adm0_a3": "HTI",
+          "adm1name": "Ouest",
+          "iso_a2": "HT",
+          "note": null,
+          "latitude": 18.5410245961,
+          "longitude": -72.3360345883,
+          "changed": 0,
+          "namediff": 0,
+          "diffnote": null,
+          "pop_max": 1998000,
+          "pop_min": 1234742,
+          "pop_other": 2385397,
+          "rank_max": 12,
+          "rank_min": 12,
+          "geonameid": 3718426,
+          "meganame": "Port-au-Prince",
+          "ls_name": "Port-au-Prince",
+          "ls_match": 1,
+          "checkme": 0,
+          "min_zoom": 5
+        },
+        "bbox": [
+          -72.33798,
+          18.54297,
+          -72.33798,
+          18.54297
+        ],
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.33798,
+            18.54297
+          ]
+        }
+      }
+    ]
+  }
